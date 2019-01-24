@@ -15,6 +15,7 @@
 		C879FC0521FA6209006F0BD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C879FC0421FA6209006F0BD9 /* main.m */; };
 		C879FC0F21FA6209006F0BD9 /* GithubReposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C879FC0E21FA6209006F0BD9 /* GithubReposTests.m */; };
 		C879FC1A21FA6209006F0BD9 /* GithubReposUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C879FC1921FA6209006F0BD9 /* GithubReposUITests.m */; };
+		C879FC2921FA6555006F0BD9 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = C879FC2821FA6555006F0BD9 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C879FC1521FA6209006F0BD9 /* GithubReposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubReposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C879FC1921FA6209006F0BD9 /* GithubReposUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubReposUITests.m; sourceTree = "<group>"; };
 		C879FC1B21FA6209006F0BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C879FC2721FA6555006F0BD9 /* Repo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		C879FC2821FA6555006F0BD9 /* Repo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C879FBF621FA6208006F0BD9 /* AppDelegate.m */,
 				C879FBF821FA6208006F0BD9 /* ViewController.h */,
 				C879FBF921FA6208006F0BD9 /* ViewController.m */,
+				C879FC2721FA6555006F0BD9 /* Repo.h */,
+				C879FC2821FA6555006F0BD9 /* Repo.m */,
 				C879FBFB21FA6208006F0BD9 /* Main.storyboard */,
 				C879FBFE21FA6209006F0BD9 /* Assets.xcassets */,
 				C879FC0021FA6209006F0BD9 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				C879FBFA21FA6208006F0BD9 /* ViewController.m in Sources */,
 				C879FC0521FA6209006F0BD9 /* main.m in Sources */,
 				C879FBF721FA6208006F0BD9 /* AppDelegate.m in Sources */,
+				C879FC2921FA6555006F0BD9 /* Repo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
